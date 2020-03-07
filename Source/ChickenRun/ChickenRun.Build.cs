@@ -1,0 +1,12 @@
+// Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
+
+using UnrealBuildTool;
+
+public class ChickenRun : ModuleRules
+{
+	public ChickenRun(ReadOnlyTargetRules Target) : base (Target)
+	{
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "AIModule" });
+		PrivatePCHHeaderFile = "ChickenRun.h";
+	}
+}
