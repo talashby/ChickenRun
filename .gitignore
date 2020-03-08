@@ -1,5 +1,9 @@
-.vs/
-Binaries/
-Intermediate/
-Saved/
+.vs
+Binaries
+Intermediate
+Saved
 ChickenRun.sln
+DerivedDataCache
+Archive
+CookEnginePathSet.bat
+/Build/WindowsNoEditor/FileOpenOrder
